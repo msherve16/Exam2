@@ -1,0 +1,26 @@
+﻿Build started 6/17/2014 12:23:50 PM.
+     1>Project "\\cs1\CS_Students\msherve16\CS172\Exam2\Exam2\Exam2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Registered.cpp Runner.cpp Source.cpp
+         Source.cpp
+     1>\\cs1\cs_students\msherve16\cs172\exam2\exam2\source.cpp(10): error C2079: 'white' uses undefined class 'std::basic_ifstream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>\\cs1\cs_students\msherve16\cs172\exam2\exam2\source.cpp(10): error C2440: 'initializing' : cannot convert from 'const char [10]' to 'int'
+                 There is no context in which this conversion is possible
+     1>\\cs1\cs_students\msherve16\cs172\exam2\exam2\source.cpp(11): error C2228: left of '.fail' must have class/struct/union
+                 type is 'int'
+     1>\\cs1\cs_students\msherve16\cs172\exam2\exam2\source.cpp(12): error C2065: 'runners' : undeclared identifier
+         Runner.cpp
+         Registered.cpp
+     1>\\cs1\cs_students\msherve16\cs172\exam2\exam2\registered.cpp(31): error C2061: syntax error : identifier 'typenameT'
+     1>\\cs1\cs_students\msherve16\cs172\exam2\exam2\registered.cpp(32): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         Generating Code...
+     1>Done Building Project "\\cs1\CS_Students\msherve16\CS172\Exam2\Exam2\Exam2.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.43
